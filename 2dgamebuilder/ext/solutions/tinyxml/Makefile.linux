@@ -1,0 +1,40 @@
+# source files.
+SRC = src/tinystr.cpp src/tinyxml.cpp src/tinyxmlerror.cpp src/tinyxmlparser.cpp
+ 
+OBJ = $(SRC:.cpp=.o)
+ 
+OUT = libtinyxml.a
+ 
+# include directories
+INCLUDES = -I. -Iinclude/ -I/usr/local/include
+ 
+# C++ compiler flags (-g -O2 -Wall)
+CCFLAGS = -g
+ 
+# compiler
+CCC = gcc
+ 
+# library paths
+LIBS = -L../ -L/usr/local/lib -lm
+ 
+# compile flags
+LDFLAGS = -g
+ 
+.SUFFIXES: .cpp
+ 
+.cpp.o:
+	$(CCC) $(INCLUDES) $(CCFLAGS) -c $< -o $@
+ 
+$(OUT): $(OBJ)
+	ar rcs $(OUT) $(OBJ)
+ 
+clean:
+	rm -f $(OBJ) $(OUT)
+
+install:
+	mkdir -p /usr/local/include/tinyxml /usr/local/lib
+	cp include/*.h /usr/local/include/tinyxml
+	cp *.a /usr/local/lib
+
+all: clean libtinyxml.a install
+ 

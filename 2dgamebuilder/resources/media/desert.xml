@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:b985c4a093c3afcb66a823af2bd08dc9:605693f8261e398dd644a787b5828982:27ee9b789fa25812ea35d0bea577c755$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="desert.png" width="512" height="512">
+    <sprite n="1" x="4" y="4" w="40" h="40"/>
+    <sprite n="10" x="50" y="4" w="40" h="40"/>
+    <sprite n="11" x="96" y="4" w="40" h="40"/>
+    <sprite n="12" x="142" y="4" w="40" h="40"/>
+    <sprite n="13" x="188" y="4" w="40" h="40"/>
+    <sprite n="14" x="234" y="4" w="40" h="30"/>
+    <sprite n="15" x="280" y="4" w="40" h="30"/>
+    <sprite n="16" x="326" y="4" w="40" h="30"/>
+    <sprite n="2" x="372" y="4" w="40" h="40"/>
+    <sprite n="3" x="418" y="4" w="40" h="40"/>
+    <sprite n="4" x="464" y="4" w="40" h="40"/>
+    <sprite n="5" x="4" y="50" w="40" h="40"/>
+    <sprite n="6" x="50" y="50" w="40" h="40"/>
+    <sprite n="7" x="96" y="50" w="40" h="40"/>
+    <sprite n="8" x="142" y="50" w="40" h="40"/>
+    <sprite n="9" x="188" y="50" w="40" h="40"/>
+    <sprite n="Bush (1)" x="234" y="50" w="46" h="28"/>
+    <sprite n="Bush (2)" x="286" y="50" w="41" h="24"/>
+    <sprite n="Cactus (1)" x="333" y="50" w="34" h="35"/>
+    <sprite n="Cactus (2)" x="373" y="50" w="23" h="16"/>
+    <sprite n="Cactus (3)" x="402" y="50" w="28" h="31"/>
+    <sprite n="Crate" x="436" y="50" w="32" h="32"/>
+    <sprite n="Grass (1)" x="474" y="50" w="33" h="17"/>
+    <sprite n="Grass (2)" x="4" y="96" w="33" h="17"/>
+    <sprite n="Sign" x="43" y="96" w="28" h="28"/>
+    <sprite n="SignArrow" x="77" y="96" w="27" h="28"/>
+    <sprite n="Skeleton" x="110" y="96" w="47" h="17"/>
+    <sprite n="Stone" x="163" y="96" w="39" h="24"/>
+    <sprite n="StoneBlock" x="208" y="96" w="32" h="32"/>
+    <sprite n="Tree" x="246" y="96" w="96" h="80"/>
+</TextureAtlas>

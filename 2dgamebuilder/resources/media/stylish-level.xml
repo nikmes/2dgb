@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<level name="wonderboy">
+    <!--n  = layer name-->
+    <!--sh = layer horizontal scrolling speed-->
+    <!--sv = layer vertical scrolling speed-->
+    <!--ts = total sprites in layer-->
+    <!--a  = global layer transparency-->
+    <!--sb = filename of spritebatch used by layer-->
+    <!--n  = sprite name-->
+    <!--c  = sprite color-->
+    <!--sw  = sprite scaled width-->
+    <!--sh  = sprite scaled height-->
+    <camera x="11119.5" y="5601.88" zoom="2" />
+    <background filename="" />
+    <layer n="nice-art" sh="1.0" sv="1.0" z="1" a="27" sb="stylish.xml">
+        <sprites>
+
+        </sprites>
+    </layer>	
+</level>

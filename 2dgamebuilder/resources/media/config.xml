@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<globalconfig>
+    <log>
+        <param name="logfilename" value="application.log" />
+        <param name="logtofile" value="Yes" />
+        <param name="enabled" value="Yes" />
+        <param name="loginformationmsgs" value="Yes" />
+        <param name="logdebugingmsgs" value="Yes" />
+        <param name="logwarningmsgs" value="Yes" />
+        <param name="logerrormsgs" value="Yes" />
+        <param name="logproblemmsgs" value="Yes" />
+        <param name="logtime" value="No" />
+        <param name="logline" value="No" />
+        <param name="logfile" value="No" />
+        <param name="logfunc" value="No" />
+        <param name="logdate" value="No" />
+        <param name="color" value="0.000000x0.000000x0.000000x1.000000" />
+    </log>
+    <video>
+        <param name="resolution" value="1920x1080" />
+        <param name="fullscreen" value="No" />
+    </video>
+    <editor>
+        <param name="color" value="0.093010x0.101796x0.105882x1.000000" />
+        <param name="drawdebuglines" value="Yes" />
+        <param name="drawbox2ddebuglines" value="Yes" />
+        <param name="drawwireframe" value="Yes" />
+        <param name="drawpspbox" value="Yes" />
+        <param name="hints" value="Yes" />
+        <param name="fps" value="Yes" />
+        <param name="drawingmode" value="Freehand" />
+    </editor>
+</globalconfig>

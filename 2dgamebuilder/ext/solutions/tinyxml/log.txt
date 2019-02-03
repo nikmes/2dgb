@@ -1,0 +1,327 @@
+rm -f src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o libtinyxml.a
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinystr.cpp -o src/tinystr.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxml.cpp -o src/tinyxml.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlerror.cpp -o src/tinyxmlerror.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlparser.cpp -o src/tinyxmlparser.o
+ar rcs libtinyxml.a src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o
+mkdir -p /usr/local/include/tinyxml /usr/local/lib
+cp include/*.h /usr/local/include/tinyxml
+cp *.a /usr/local/lib
+rm -f src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o libtinyxml.a
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinystr.cpp -o src/tinystr.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxml.cpp -o src/tinyxml.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlerror.cpp -o src/tinyxmlerror.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlparser.cpp -o src/tinyxmlparser.o
+ar rcs libtinyxml.a src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o
+mkdir -p /usr/local/include/tinyxml /usr/local/lib
+cp include/*.h /usr/local/include/tinyxml
+cp *.a /usr/local/lib
+rm -f src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o libtinyxml.a
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinystr.cpp -o src/tinystr.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxml.cpp -o src/tinyxml.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlerror.cpp -o src/tinyxmlerror.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlparser.cpp -o src/tinyxmlparser.o
+ar rcs libtinyxml.a src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o
+mkdir -p /usr/local/include/tinyxml /usr/local/lib
+cp include/*.h /usr/local/include/tinyxml
+cp *.a /usr/local/lib
+rm -f src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o libtinyxml.a
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinystr.cpp -o src/tinystr.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxml.cpp -o src/tinyxml.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlerror.cpp -o src/tinyxmlerror.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlparser.cpp -o src/tinyxmlparser.o
+ar rcs libtinyxml.a src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o
+mkdir -p /usr/local/include/tinyxml /usr/local/lib
+mkdir: cannot create directory `/usr/local/include/tinyxml': Permission denied
+make: *** [install] Error 1
+rm -f src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o libtinyxml.a
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinystr.cpp -o src/tinystr.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxml.cpp -o src/tinyxml.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlerror.cpp -o src/tinyxmlerror.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlparser.cpp -o src/tinyxmlparser.o
+ar rcs libtinyxml.a src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o
+mkdir -p /usr/local/include/tinyxml /usr/local/lib
+cp include/*.h /usr/local/include/tinyxml
+cp *.a /usr/local/lib
+rm -f src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o libtinyxml.a
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinystr.cpp -o src/tinystr.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxml.cpp -o src/tinyxml.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlerror.cpp -o src/tinyxmlerror.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlparser.cpp -o src/tinyxmlparser.o
+ar rcs libtinyxml.a src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o
+mkdir -p /usr/local/include/tinyxml /usr/local/lib
+cp include/*.h /usr/local/include/tinyxml
+cp *.a /usr/local/lib
+rm -f src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o libtinyxml.a
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinystr.cpp -o src/tinystr.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxml.cpp -o src/tinyxml.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlerror.cpp -o src/tinyxmlerror.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlparser.cpp -o src/tinyxmlparser.o
+ar rcs libtinyxml.a src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o
+mkdir -p /usr/local/include/tinyxml /usr/local/lib
+cp include/*.h /usr/local/include/tinyxml
+cp *.a /usr/local/lib
+rm -f src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o libtinyxml.a
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinystr.cpp -o src/tinystr.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxml.cpp -o src/tinyxml.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlerror.cpp -o src/tinyxmlerror.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlparser.cpp -o src/tinyxmlparser.o
+ar rcs libtinyxml.a src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o
+mkdir -p /usr/local/include/tinyxml /usr/local/lib
+cp include/*.h /usr/local/include/tinyxml
+cp *.a /usr/local/lib
+rm -f src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o libtinyxml.a
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinystr.cpp -o src/tinystr.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxml.cpp -o src/tinyxml.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlerror.cpp -o src/tinyxmlerror.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlparser.cpp -o src/tinyxmlparser.o
+ar rcs libtinyxml.a src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o
+mkdir -p /usr/local/include/tinyxml /usr/local/lib
+cp include/*.h /usr/local/include/tinyxml
+cp *.a /usr/local/lib
+rm -f src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o libtinyxml.a
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinystr.cpp -o src/tinystr.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxml.cpp -o src/tinyxml.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlerror.cpp -o src/tinyxmlerror.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlparser.cpp -o src/tinyxmlparser.o
+ar rcs libtinyxml.a src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o
+mkdir -p /usr/local/include/tinyxml /usr/local/lib
+cp include/*.h /usr/local/include/tinyxml
+cp *.a /usr/local/lib
+rm -f src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o libtinyxml.a
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinystr.cpp -o src/tinystr.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxml.cpp -o src/tinyxml.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlerror.cpp -o src/tinyxmlerror.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlparser.cpp -o src/tinyxmlparser.o
+ar rcs libtinyxml.a src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o
+mkdir -p /usr/local/include/tinyxml /usr/local/lib
+cp include/*.h /usr/local/include/tinyxml
+cp *.a /usr/local/lib
+rm -f src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o libtinyxml.a
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinystr.cpp -o src/tinystr.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxml.cpp -o src/tinyxml.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlerror.cpp -o src/tinyxmlerror.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlparser.cpp -o src/tinyxmlparser.o
+ar rcs libtinyxml.a src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o
+mkdir -p /usr/local/include/tinyxml /usr/local/lib
+cp include/*.h /usr/local/include/tinyxml
+cp *.a /usr/local/lib
+rm -f src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o libtinyxml.a
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinystr.cpp -o src/tinystr.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxml.cpp -o src/tinyxml.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlerror.cpp -o src/tinyxmlerror.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlparser.cpp -o src/tinyxmlparser.o
+ar rcs libtinyxml.a src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o
+mkdir -p /usr/local/include/tinyxml /usr/local/lib
+cp include/*.h /usr/local/include/tinyxml
+cp *.a /usr/local/lib
+rm -f src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o libtinyxml.a
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinystr.cpp -o src/tinystr.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxml.cpp -o src/tinyxml.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlerror.cpp -o src/tinyxmlerror.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlparser.cpp -o src/tinyxmlparser.o
+ar rcs libtinyxml.a src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o
+mkdir -p /usr/local/include/tinyxml /usr/local/lib
+cp include/*.h /usr/local/include/tinyxml
+cp *.a /usr/local/lib
+rm -f src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o libtinyxml.a
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinystr.cpp -o src/tinystr.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxml.cpp -o src/tinyxml.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlerror.cpp -o src/tinyxmlerror.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlparser.cpp -o src/tinyxmlparser.o
+ar rcs libtinyxml.a src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o
+mkdir -p /usr/local/include/tinyxml /usr/local/lib
+cp include/*.h /usr/local/include/tinyxml
+cp *.a /usr/local/lib
+rm -f src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o libtinyxml.a
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinystr.cpp -o src/tinystr.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxml.cpp -o src/tinyxml.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlerror.cpp -o src/tinyxmlerror.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlparser.cpp -o src/tinyxmlparser.o
+ar rcs libtinyxml.a src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o
+mkdir -p /usr/local/include/tinyxml /usr/local/lib
+cp include/*.h /usr/local/include/tinyxml
+cp *.a /usr/local/lib
+rm -f src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o libtinyxml.a
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinystr.cpp -o src/tinystr.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxml.cpp -o src/tinyxml.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlerror.cpp -o src/tinyxmlerror.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlparser.cpp -o src/tinyxmlparser.o
+ar rcs libtinyxml.a src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o
+mkdir -p /usr/local/include/tinyxml /usr/local/lib
+cp include/*.h /usr/local/include/tinyxml
+cp: cannot create regular file `/usr/local/include/tinyxml/tinystr.h': Permission denied
+cp: cannot create regular file `/usr/local/include/tinyxml/tinyxml.h': Permission denied
+make: *** [install] Error 1
+rm -f src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o libtinyxml.a
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinystr.cpp -o src/tinystr.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxml.cpp -o src/tinyxml.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlerror.cpp -o src/tinyxmlerror.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlparser.cpp -o src/tinyxmlparser.o
+ar rcs libtinyxml.a src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o
+mkdir -p /usr/local/include/tinyxml /usr/local/lib
+cp include/*.h /usr/local/include/tinyxml
+cp *.a /usr/local/lib
+rm -f src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o libtinyxml.a
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinystr.cpp -o src/tinystr.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxml.cpp -o src/tinyxml.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlerror.cpp -o src/tinyxmlerror.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlparser.cpp -o src/tinyxmlparser.o
+ar rcs libtinyxml.a src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o
+mkdir -p /usr/local/include/tinyxml /usr/local/lib
+cp include/*.h /usr/local/include/tinyxml
+cp *.a /usr/local/lib
+rm -f src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o libtinyxml.a
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinystr.cpp -o src/tinystr.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxml.cpp -o src/tinyxml.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlerror.cpp -o src/tinyxmlerror.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlparser.cpp -o src/tinyxmlparser.o
+ar rcs libtinyxml.a src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o
+mkdir -p /usr/local/include/tinyxml /usr/local/lib
+cp include/*.h /usr/local/include/tinyxml
+cp *.a /usr/local/lib
+rm -f src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o libtinyxml.a
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinystr.cpp -o src/tinystr.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxml.cpp -o src/tinyxml.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlerror.cpp -o src/tinyxmlerror.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlparser.cpp -o src/tinyxmlparser.o
+ar rcs libtinyxml.a src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o
+mkdir -p /usr/local/include/tinyxml /usr/local/lib
+cp include/*.h /usr/local/include/tinyxml
+cp *.a /usr/local/lib
+rm -f src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o libtinyxml.a
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinystr.cpp -o src/tinystr.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxml.cpp -o src/tinyxml.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlerror.cpp -o src/tinyxmlerror.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlparser.cpp -o src/tinyxmlparser.o
+ar rcs libtinyxml.a src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o
+mkdir -p /usr/local/include/tinyxml /usr/local/lib
+cp include/*.h /usr/local/include/tinyxml
+cp *.a /usr/local/lib
+rm -f src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o libtinyxml.a
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinystr.cpp -o src/tinystr.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxml.cpp -o src/tinyxml.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlerror.cpp -o src/tinyxmlerror.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlparser.cpp -o src/tinyxmlparser.o
+ar rcs libtinyxml.a src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o
+mkdir -p /usr/local/include/tinyxml /usr/local/lib
+cp include/*.h /usr/local/include/tinyxml
+cp *.a /usr/local/lib
+rm -f src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o libtinyxml.a
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinystr.cpp -o src/tinystr.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxml.cpp -o src/tinyxml.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlerror.cpp -o src/tinyxmlerror.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlparser.cpp -o src/tinyxmlparser.o
+ar rcs libtinyxml.a src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o
+mkdir -p /usr/local/include/tinyxml /usr/local/lib
+cp include/*.h /usr/local/include/tinyxml
+cp *.a /usr/local/lib
+rm -f src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o libtinyxml.a
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinystr.cpp -o src/tinystr.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxml.cpp -o src/tinyxml.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlerror.cpp -o src/tinyxmlerror.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlparser.cpp -o src/tinyxmlparser.o
+ar rcs libtinyxml.a src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o
+mkdir -p /usr/local/include/tinyxml /usr/local/lib
+cp include/*.h /usr/local/include/tinyxml
+cp *.a /usr/local/lib
+rm -f src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o libtinyxml.a
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinystr.cpp -o src/tinystr.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxml.cpp -o src/tinyxml.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlerror.cpp -o src/tinyxmlerror.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlparser.cpp -o src/tinyxmlparser.o
+ar rcs libtinyxml.a src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o
+mkdir -p /usr/local/include/tinyxml /usr/local/lib
+cp include/*.h /usr/local/include/tinyxml
+cp *.a /usr/local/lib
+make: *** No rule to make target `clean'.  Stop.
+rm -f src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o libtinyxml.a
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinystr.cpp -o src/tinystr.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxml.cpp -o src/tinyxml.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlerror.cpp -o src/tinyxmlerror.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlparser.cpp -o src/tinyxmlparser.o
+ar rcs libtinyxml.a src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o
+mkdir -p /usr/local/include/tinyxml /usr/local/lib
+cp include/*.h /usr/local/include/tinyxml
+cp *.a /usr/local/lib
+make: *** No rule to make target `clean'.  Stop.
+rm -f src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o libtinyxml.a
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinystr.cpp -o src/tinystr.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxml.cpp -o src/tinyxml.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlerror.cpp -o src/tinyxmlerror.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlparser.cpp -o src/tinyxmlparser.o
+ar rcs libtinyxml.a src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o
+mkdir -p /usr/local/include/tinyxml /usr/local/lib
+cp include/*.h /usr/local/include/tinyxml
+cp *.a /usr/local/lib
+make: *** No rule to make target `clean'.  Stop.
+rm -f src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o libtinyxml.a
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinystr.cpp -o src/tinystr.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxml.cpp -o src/tinyxml.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlerror.cpp -o src/tinyxmlerror.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlparser.cpp -o src/tinyxmlparser.o
+ar rcs libtinyxml.a src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o
+mkdir -p /usr/local/include/tinyxml /usr/local/lib
+cp include/*.h /usr/local/include/tinyxml
+cp *.a /usr/local/lib
+make: *** No rule to make target `clean'.  Stop.
+rm -f src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o libtinyxml.a
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinystr.cpp -o src/tinystr.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxml.cpp -o src/tinyxml.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlerror.cpp -o src/tinyxmlerror.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlparser.cpp -o src/tinyxmlparser.o
+ar rcs libtinyxml.a src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o
+mkdir -p /usr/local/include/tinyxml /usr/local/lib
+cp include/*.h /usr/local/include/tinyxml
+cp *.a /usr/local/lib
+make: *** No rule to make target `clean'.  Stop.
+rm -f src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o libtinyxml.a
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinystr.cpp -o src/tinystr.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxml.cpp -o src/tinyxml.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlerror.cpp -o src/tinyxmlerror.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlparser.cpp -o src/tinyxmlparser.o
+ar rcs libtinyxml.a src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o
+mkdir -p /usr/local/include/tinyxml /usr/local/lib
+cp include/*.h /usr/local/include/tinyxml
+cp *.a /usr/local/lib
+make: *** No rule to make target `clean'.  Stop.
+rm -f src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o libtinyxml.a
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinystr.cpp -o src/tinystr.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxml.cpp -o src/tinyxml.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlerror.cpp -o src/tinyxmlerror.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlparser.cpp -o src/tinyxmlparser.o
+ar rcs libtinyxml.a src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o
+mkdir -p /usr/local/include/tinyxml /usr/local/lib
+cp include/*.h /usr/local/include/tinyxml
+cp *.a /usr/local/lib
+make: *** No rule to make target `clean'.  Stop.
+rm -f src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o libtinyxml.a
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinystr.cpp -o src/tinystr.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxml.cpp -o src/tinyxml.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlerror.cpp -o src/tinyxmlerror.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlparser.cpp -o src/tinyxmlparser.o
+ar rcs libtinyxml.a src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o
+mkdir -p /usr/local/include/tinyxml /usr/local/lib
+cp include/*.h /usr/local/include/tinyxml
+cp *.a /usr/local/lib
+make: *** No rule to make target `clean'.  Stop.
+rm -f src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o libtinyxml.a
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinystr.cpp -o src/tinystr.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxml.cpp -o src/tinyxml.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlerror.cpp -o src/tinyxmlerror.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlparser.cpp -o src/tinyxmlparser.o
+ar rcs libtinyxml.a src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o
+mkdir -p /usr/local/include/tinyxml /usr/local/lib
+cp include/*.h /usr/local/include/tinyxml
+cp *.a /usr/local/lib
+make: *** No rule to make target `clean'.  Stop.
+rm -f src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o libtinyxml.a
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinystr.cpp -o src/tinystr.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxml.cpp -o src/tinyxml.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlerror.cpp -o src/tinyxmlerror.o
+gcc -I. -Iinclude/ -I/usr/local/include -g -c src/tinyxmlparser.cpp -o src/tinyxmlparser.o
+ar rcs libtinyxml.a src/tinystr.o src/tinyxml.o src/tinyxmlerror.o src/tinyxmlparser.o
+mkdir -p /usr/local/include/tinyxml /usr/local/lib
+cp include/*.h /usr/local/include/tinyxml
+cp *.a /usr/local/lib
+make: *** No rule to make target `clean'.  Stop.

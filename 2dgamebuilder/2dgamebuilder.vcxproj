@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="inc\application.h" />
+    <ClInclude Include="inc\applicationstate.h" />
+    <ClInclude Include="inc\audiobar.h" />
+    <ClInclude Include="inc\benchmarkingwindow.h" />
+    <ClInclude Include="inc\benchmarkstate.h" />
+    <ClInclude Include="inc\box2ddebugdraw.h" />
+    <ClInclude Include="inc\box2dworldwindow.h" />
+    <ClInclude Include="inc\camera.h" />
+    <ClInclude Include="inc\camerapropertieswindow.h" />
+    <ClInclude Include="inc\cameraprovider.h" />
+    <ClInclude Include="inc\colorpickerwindow.h" />
+    <ClInclude Include="inc\definitions.h" />
+    <ClInclude Include="inc\editbar.h" />
+    <ClInclude Include="inc\editstate.h" />
+    <ClInclude Include="inc\filedialogwindow.h" />
+    <ClInclude Include="inc\filelogprovider.h" />
+    <ClInclude Include="inc\fontstash.h" />
+    <ClInclude Include="inc\gamebar.h" />
+    <ClInclude Include="inc\gameintrostate.h" />
+    <ClInclude Include="inc\gamemenustate.h" />
+    <ClInclude Include="inc\gamepadswindow.h" />
+    <ClInclude Include="inc\gameplaystate.h" />
+    <ClInclude Include="inc\gameprovider.h" />
+    <ClInclude Include="inc\glfontstash.h" />
+    <ClInclude Include="inc\glfwinputprovider.h" />
+    <ClInclude Include="inc\glfwvideoprovider.h" />
+    <ClInclude Include="inc\glib2d\glib2d.h" />
+    <ClInclude Include="inc\globals.h" />
+    <ClInclude Include="inc\gridpropertieswindow.h" />
+    <ClInclude Include="inc\gridprovider.h" />
+    <ClInclude Include="inc\helpprovider.h" />
+    <ClInclude Include="inc\imguicomponent.h" />
+    <ClInclude Include="inc\imguicomponentprovider.h" />
+    <ClInclude Include="inc\imguiprovider.h" />
+    <ClInclude Include="inc\imgui\imconfig.h" />
+    <ClInclude Include="inc\imgui\imgui.h" />
+    <ClInclude Include="inc\imgui\imgui_internal.h" />
+    <ClInclude Include="inc\imgui\stb_image_write.h" />
+    <ClInclude Include="inc\imgui\stb_rect_pack.h" />
+    <ClInclude Include="inc\imgui\stb_textedit.h" />
+    <ClInclude Include="inc\imgui\stb_truetype.h" />
+    <ClInclude Include="inc\introstate.h" />
+    <ClInclude Include="inc\layer.h" />
+    <ClInclude Include="inc\layerbar.h" />
+    <ClInclude Include="inc\layerpropertieswindow.h" />
+    <ClInclude Include="inc\level.h" />
+    <ClInclude Include="inc\levelbar.h" />
+    <ClInclude Include="inc\levelprovider.h" />
+    <ClInclude Include="inc\libpng\pngdebug.h" />
+    <ClInclude Include="inc\libpng\pnginfo.h" />
+    <ClInclude Include="inc\libpng\pngpriv.h" />
+    <ClInclude Include="inc\libpng\pngstruct.h" />
+    <ClInclude Include="inc\loggerwindow.h" />
+    <ClInclude Include="inc\maintoolbar.h" />
+    <ClInclude Include="inc\parameters.h" />
+    <ClInclude Include="inc\pcaudioprovider.h" />
+    <ClInclude Include="inc\pctextprovider.h" />
+    <ClInclude Include="inc\pgezip.h" />
+    <ClInclude Include="inc\physicsbar.h" />
+    <ClInclude Include="inc\physicsstate.h" />
+    <ClInclude Include="inc\platform.h" />
+    <ClInclude Include="inc\preferenceswindow.h" />
+    <ClInclude Include="inc\renderingstatswindow.h" />
+    <ClInclude Include="inc\renderprovider.h" />
+    <ClInclude Include="inc\sandboxstate.h" />
+    <ClInclude Include="inc\screenshotwindow.h" />
+    <ClInclude Include="inc\servicelocator.h" />
+    <ClInclude Include="inc\sprite.h" />
+    <ClInclude Include="inc\spritebatch.h" />
+    <ClInclude Include="inc\spritepropertieswindow.h" />
+    <ClInclude Include="inc\spriteselector.h" />
+    <ClInclude Include="inc\stateprovider.h" />
+    <ClInclude Include="inc\textureatlas.h" />
+    <ClInclude Include="inc\textureprovider.h" />
+    <ClInclude Include="inc\tinyc2.h" />
+    <ClInclude Include="inc\utils.h" />
+    <ClInclude Include="inc\utils_filesystem.h" />
+    <ClInclude Include="inc\utils_string.h" />
+    <ClInclude Include="inc\xmlconfigurationprovider.h" />
+    <ClInclude Include="inc\zlib\crc32.h" />
+    <ClInclude Include="inc\zlib\deflate.h" />
+    <ClInclude Include="inc\zlib\gzguts.h" />
+    <ClInclude Include="inc\zlib\inffast.h" />
+    <ClInclude Include="inc\zlib\inffixed.h" />
+    <ClInclude Include="inc\zlib\inflate.h" />
+    <ClInclude Include="inc\zlib\inftrees.h" />
+    <ClInclude Include="inc\zlib\trees.h" />
+    <ClInclude Include="inc\zlib\zconf.h" />
+    <ClInclude Include="inc\zlib\zlib.h" />
+    <ClInclude Include="inc\zlib\zutil.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\application.cpp" />
+    <ClCompile Include="src\benchmarkingwindow.cpp" />
+    <ClCompile Include="src\benchmarkstate.cpp" />
+    <ClCompile Include="src\box2ddebugdraw.cpp" />
+    <ClCompile Include="src\box2dworldwindow.cpp" />
+    <ClCompile Include="src\camera.cpp" />
+    <ClCompile Include="src\camerapropertieswindow.cpp" />
+    <ClCompile Include="src\cameraprovider.cpp" />
+    <ClCompile Include="src\colorpickerwindow.cpp" />
+    <ClCompile Include="src\editbar.cpp" />
+    <ClCompile Include="src\editstate.cpp" />
+    <ClCompile Include="src\filedialogwindow.cpp" />
+    <ClCompile Include="src\filelogprovider.cpp" />
+    <ClCompile Include="src\gamebar.cpp" />
+    <ClCompile Include="src\gameintrostate.cpp" />
+    <ClCompile Include="src\gamemenustate.cpp" />
+    <ClCompile Include="src\gamepadswindow.cpp" />
+    <ClCompile Include="src\gameplaystate.cpp" />
+    <ClCompile Include="src\gameprovider.cpp" />
+    <ClCompile Include="src\glfwinputprovider.cpp" />
+    <ClCompile Include="src\glib2d\glib2d.cpp" />
+    <ClCompile Include="src\globals.cpp" />
+    <ClCompile Include="src\gridpropertieswindow.cpp" />
+    <ClCompile Include="src\gridprovider.cpp" />
+    <ClCompile Include="src\helpprovider.cpp" />
+    <ClCompile Include="src\imguicomponent.cpp" />
+    <ClCompile Include="src\imguicomponentprovider.cpp" />
+    <ClCompile Include="src\imguiprovider.cpp" />
+    <ClCompile Include="src\imgui\imgui.cpp" />
+    <ClCompile Include="src\imgui\imgui_demo.cpp" />
+    <ClCompile Include="src\imgui\imgui_draw.cpp" />
+    <ClCompile Include="src\introstate.cpp" />
+    <ClCompile Include="src\layer.cpp" />
+    <ClCompile Include="src\layerbar.cpp" />
+    <ClCompile Include="src\layerpropertieswindow.cpp" />
+    <ClCompile Include="src\level.cpp" />
+    <ClCompile Include="src\levelbar.cpp" />
+    <ClCompile Include="src\libpng\png.c" />
+    <ClCompile Include="src\libpng\pngerror.c" />
+    <ClCompile Include="src\libpng\pngget.c" />
+    <ClCompile Include="src\libpng\pngmem.c" />
+    <ClCompile Include="src\libpng\pngpread.c" />
+    <ClCompile Include="src\libpng\pngread.c" />
+    <ClCompile Include="src\libpng\pngrio.c" />
+    <ClCompile Include="src\libpng\pngrtran.c" />
+    <ClCompile Include="src\libpng\pngrutil.c" />
+    <ClCompile Include="src\libpng\pngset.c" />
+    <ClCompile Include="src\libpng\pngtrans.c" />
+    <ClCompile Include="src\libpng\pngwio.c" />
+    <ClCompile Include="src\libpng\pngwrite.c" />
+    <ClCompile Include="src\libpng\pngwtran.c" />
+    <ClCompile Include="src\libpng\pngwutil.c" />
+    <ClCompile Include="src\loggerwindow.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\maintoolbar.cpp" />
+    <ClCompile Include="src\pcaudioprovider.cpp" />
+    <ClCompile Include="src\pctextprovider.cpp" />
+    <ClCompile Include="src\pgezip.cpp" />
+    <ClCompile Include="src\physicsbar.cpp" />
+    <ClCompile Include="src\physicsstate.cpp" />
+    <ClCompile Include="src\preferenceswindow.cpp" />
+    <ClCompile Include="src\renderingstatswindow.cpp" />
+    <ClCompile Include="src\renderprovider.cpp" />
+    <ClCompile Include="src\sandboxstate.cpp" />
+    <ClCompile Include="src\screenshotwindow.cpp" />
+    <ClCompile Include="src\servicelocator.cpp" />
+    <ClCompile Include="src\sprite.cpp" />
+    <ClCompile Include="src\spritebatch.cpp" />
+    <ClCompile Include="src\spritepropertieswindow.cpp" />
+    <ClCompile Include="src\spriteselector.cpp" />
+    <ClCompile Include="src\stateprovider.cpp" />
+    <ClCompile Include="src\textureatlas.cpp" />
+    <ClCompile Include="src\texturepovider.cpp" />
+    <ClCompile Include="src\utils_filesystem.cpp" />
+    <ClCompile Include="src\utils_string.cpp" />
+    <ClCompile Include="src\xmlconfigurationprovider.cpp" />
+    <ClCompile Include="src\zlib\adler32.c" />
+    <ClCompile Include="src\zlib\compress.c" />
+    <ClCompile Include="src\zlib\crc32.c" />
+    <ClCompile Include="src\zlib\deflate.c" />
+    <ClCompile Include="src\zlib\gzclose.c" />
+    <ClCompile Include="src\zlib\gzlib.c" />
+    <ClCompile Include="src\zlib\gzread.c" />
+    <ClCompile Include="src\zlib\gzwrite.c" />
+    <ClCompile Include="src\zlib\infback.c" />
+    <ClCompile Include="src\zlib\inffast.c" />
+    <ClCompile Include="src\zlib\inflate.c" />
+    <ClCompile Include="src\zlib\inftrees.c" />
+    <ClCompile Include="src\zlib\trees.c" />
+    <ClCompile Include="src\zlib\uncompr.c" />
+    <ClCompile Include="src\zlib\zutil.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="resources\resources\config.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{CC946FC9-5333-4019-8C1A-E65E6E4FB9E1}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>My2dgamebuilder</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>inc\zlib;inc\imgui;inc\glib2d;inc\collision;inc\libpng;inc;ext\inc;$(IncludePath)</IncludePath>
+    <LibraryPath>ext\lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>inc\zlib;inc\imgui;inc\glib2d;inc\collision;inc\libpng;inc;ext\inc;$(IncludePath)</IncludePath>
+    <LibraryPath>ext\lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>inc\zlib;inc\imgui;inc\glib2d;inc\collision;inc\libpng;inc;ext\inc;$(IncludePath)</IncludePath>
+    <LibraryPath>ext\lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>inc\zlib;inc\imgui;inc\glib2d;inc\collision;inc\libpng;inc;ext\inc;$(IncludePath)</IncludePath>
+    <LibraryPath>ext\lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalDependencies>tinyxmld.lib;box2dd.lib;glfw3.lib;glew32s.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalDependencies>tinyxmld.lib;box2dd.lib;glfw3.lib;glew32s.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <MinimalRebuild>false</MinimalRebuild>
+      <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Native</SubSystem>
+      <EnableCOMDATFolding>false</EnableCOMDATFolding>
+      <OptimizeReferences>false</OptimizeReferences>
+      <AdditionalDependencies>box2d.lib;tinyxml.lib;glfw3.lib;glew32s.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <MinimalRebuild>false</MinimalRebuild>
+      <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Native</SubSystem>
+      <EnableCOMDATFolding>false</EnableCOMDATFolding>
+      <OptimizeReferences>false</OptimizeReferences>
+      <AdditionalDependencies>box2d.lib;tinyxml.lib;glfw3.lib;glew32s.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

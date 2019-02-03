@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<globalconfig>
+    <log>
+        <param name="logfilename" value="application.log" />
+        <param name="logtofile" value="Yes" />
+        <param name="enabled" value="No" />
+        <param name="loginformationmsgs" value="No" />
+        <param name="logdebugingmsgs" value="No" />
+        <param name="logwarningmsgs" value="No" />
+        <param name="logerrormsgs" value="No" />
+        <param name="logproblemmsgs" value="No" />
+        <param name="logtime" value="Yes" />
+        <param name="logline" value="No" />
+        <param name="logfile" value="No" />
+        <param name="logfunc" value="Yes" />
+        <param name="logdate" value="No" />
+        <param name="color" value="0.000000x0.000000x0.000000x1.000000" />
+    </log>
+    <video>
+        <param name="resolution" value="1038x522" />
+        <param name="fullscreen" value="Yes" />
+        <param name="rendermode" value="DARRAY" />
+        <param name="rendermode" value="VBO" />
+        <param name="rendermode" value="PMVBO" />
+    </video>
+    <editor>
+        <param name="color" value="0.505744x0.571600x0.796078x1.000000" />
+        <param name="drawdebuglines" value="No" />
+        <param name="drawbox2ddebuglines" value="No" />
+        <param name="drawwireframe" value="No" />
+        <param name="drawpspbox" value="Yes" />
+        <param name="drawpsvitabox" value="No" />
+        <param name="drawswitchbox" value="No" />
+        <param name="hints" value="Yes" />
+        <param name="fps" value="Yes" />
+        <param name="drawingmode" value="Freehand" />
+    </editor>
+</globalconfig>

@@ -1,0 +1,23 @@
+PSPSDK = $(shell psp-config --pspsdk-path)
+PSPDIR = $(shell psp-config --psp-prefix)
+
+CFLAGS = -O2 -G0 -g -Iinclude/
+
+
+OBJS = src/tinystr.o \
+	   src/tinyxml.o \
+	   src/tinyxmlerror.o \
+	   src/tinyxmlparser.o
+	   
+TARGET_LIB = libtinyxml.a
+
+LIBS = 
+
+include $(PSPSDK)/lib/build.mak
+
+all: install
+
+install: 
+	mkdir -p $(PSPDIR)/include/tinyxml $(PSPDIR)/lib
+	cp include/*.h $(PSPDIR)/include/tinyxml
+	cp *.a $(PSPDIR)/lib

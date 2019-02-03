@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:a41591104cab4ba9eed5b58906289c17:ed7888a8d68aecc25d51cca176f5d8de:649e7b06ce13703a7ca41949950b7016$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="medievil-objects.png" width="512" height="512">
+    <sprite n="barrel" x="4" y="4" w="34" h="36"/>
+    <sprite n="chest1" x="44" y="4" w="35" h="33" oX="3" oY="8" oW="41" oH="41"/>
+    <sprite n="chest2" x="85" y="4" w="35" h="35" oX="3" oY="6" oW="41" oH="41"/>
+    <sprite n="chest3" x="126" y="4" w="35" h="37" oX="3" oY="4" oW="41" oH="41"/>
+    <sprite n="chest4" x="167" y="4" w="35" h="37" oX="3" oY="4" oW="41" oH="41"/>
+    <sprite n="crate" x="208" y="4" w="33" h="33"/>
+    <sprite n="crystal1" x="247" y="4" w="30" h="26"/>
+    <sprite n="crystal2" x="283" y="4" w="30" h="26"/>
+    <sprite n="crystal3" x="319" y="4" w="30" h="26"/>
+    <sprite n="diamond (1)" x="355" y="4" w="16" h="14"/>
+    <sprite n="diamond (2)" x="377" y="4" w="16" h="14"/>
+    <sprite n="diamond (3)" x="399" y="4" w="16" h="14"/>
+    <sprite n="dirt (1)" x="421" y="4" w="40" h="20" oX="0" oY="20" oW="40" oH="40"/>
+    <sprite n="dirt (2)" x="467" y="4" w="40" h="20" oX="0" oY="20" oW="40" oH="40"/>
+    <sprite n="dirt (3)" x="4" y="47" w="40" h="22" oX="0" oY="18" oW="40" oH="40"/>
+    <sprite n="dirt (4)" x="50" y="47" w="40" h="24" oX="0" oY="16" oW="40" oH="40"/>
+    <sprite n="dirt (5)" x="96" y="47" w="40" h="22" oX="0" oY="18" oW="40" oH="40"/>
+    <sprite n="door1" x="142" y="47" w="59" h="66"/>
+    <sprite n="door2" x="207" y="47" w="59" h="66"/>
+    <sprite n="drum1" x="272" y="47" w="28" h="37"/>
+    <sprite n="drum2" x="306" y="47" w="28" h="37"/>
+    <sprite n="float_rail (1)" x="340" y="47" w="40" h="20" oX="0" oY="20" oW="40" oH="40"/>
+    <sprite n="float_rail (2)" x="386" y="47" w="40" h="16" oX="0" oY="24" oW="40" oH="40"/>
+    <sprite n="float_rail (3)" x="432" y="47" w="40" h="20" oX="0" oY="20" oW="40" oH="40"/>
+    <sprite n="ground_rail (1)" x="478" y="47" w="20" h="22" oX="20" oY="18" oW="40" oH="40"/>
+    <sprite n="ground_rail (2)" x="4" y="119" w="40" h="8" oX="0" oY="32" oW="40" oH="40"/>
+    <sprite n="ground_rail (3)" x="50" y="119" w="20" h="22" oX="0" oY="18" oW="40" oH="40"/>
+    <sprite n="ground_rail (4)" x="76" y="119" w="40" h="12" oX="0" oY="28" oW="40" oH="40"/>
+    <sprite n="ground_rail (5)" x="122" y="119" w="40" h="12" oX="0" oY="28" oW="40" oH="40"/>
+    <sprite n="horizontal_moving_platform" x="168" y="119" w="40" h="16"/>
+    <sprite n="horizontal_moving_platform2" x="214" y="119" w="40" h="11"/>
+    <sprite n="ladder (1)" x="260" y="119" w="26" h="24" oX="7" oY="16" oW="40" oH="40"/>
+    <sprite n="ladder (2)" x="292" y="119" w="26" h="40" oX="7" oY="0" oW="40" oH="40"/>
+    <sprite n="ladder (3)" x="324" y="119" w="26" h="24" oX="7" oY="0" oW="40" oH="40"/>
+    <sprite n="lamp" x="356" y="119" w="56" h="34"/>
+    <sprite n="lamp2" x="418" y="119" w="56" h="54"/>
+    <sprite n="lever1" x="480" y="119" w="26" h="18" oX="1" oY="22" oW="40" oH="40"/>
+    <sprite n="lever2" x="4" y="179" w="16" h="24" oX="11" oY="16" oW="40" oH="40"/>
+    <sprite n="lever3" x="26" y="179" w="18" h="24" oX="13" oY="16" oW="40" oH="40"/>
+    <sprite n="lever4" x="50" y="179" w="26" h="16" oX="12" oY="24" oW="40" oH="40"/>
+    <sprite n="pickaxe" x="82" y="179" w="24" h="25"/>
+    <sprite n="shovel" x="112" y="179" w="12" h="35"/>
+    <sprite n="spike" x="130" y="179" w="40" h="36" oX="0" oY="4" oW="40" oH="40"/>
+    <sprite n="torch1" x="176" y="179" w="57" h="37" oX="11" oY="2" oW="79" oH="41"/>
+    <sprite n="torch2" x="239" y="179" w="57" h="37" oX="11" oY="2" oW="79" oH="41"/>
+    <sprite n="torch3" x="302" y="179" w="57" h="39" oX="12" oY="0" oW="79" oH="41"/>
+    <sprite n="torch4" x="365" y="179" w="57" h="39" oX="12" oY="0" oW="79" oH="41"/>
+    <sprite n="trolley" x="428" y="179" w="70" h="40"/>
+    <sprite n="trolley2" x="4" y="225" w="69" h="33"/>
+    <sprite n="vertical_moving_platform" x="79" y="225" w="40" h="25"/>
+    <sprite n="vertical_slider1" x="125" y="225" w="13" h="37" oX="14" oY="4" oW="41" oH="41"/>
+    <sprite n="vertical_slider2" x="144" y="225" w="13" h="41" oX="14" oY="0" oW="41" oH="41"/>
+    <sprite n="vertical_slider3" x="163" y="225" w="13" h="37" oX="14" oY="0" oW="41" oH="41"/>
+    <sprite n="wheel" x="182" y="225" w="14" h="14"/>
+</TextureAtlas>

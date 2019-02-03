@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:035f828e851bd95f8223d562ac2fbc08:4e90578959876627c31989cc96a0eb4e:90a68ccae83e65ad8ceeb861f0a8529d$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="icons.png" width="512" height="512">
+    <sprite n="about" x="2" y="2" w="34" h="34"/>
+    <sprite n="add" x="38" y="2" w="34" h="34"/>
+    <sprite n="adjustcolor" x="74" y="2" w="34" h="34"/>
+    <sprite n="align-bottom" x="110" y="2" w="34" h="34"/>
+    <sprite n="align-center" x="146" y="2" w="34" h="34"/>
+    <sprite n="align-left" x="182" y="2" w="34" h="34"/>
+    <sprite n="align-right" x="218" y="2" w="34" h="34"/>
+    <sprite n="align-top" x="254" y="2" w="34" h="34"/>
+    <sprite n="animation" x="290" y="2" w="34" h="34"/>
+    <sprite n="arcadebox" x="326" y="2" w="34" h="34"/>
+    <sprite n="audio-pianno" x="362" y="2" w="34" h="34"/>
+    <sprite n="bow-icon" x="398" y="2" w="34" h="34"/>
+    <sprite n="box2d" x="434" y="2" w="34" h="34"/>
+    <sprite n="bulb" x="470" y="2" w="34" h="34"/>
+    <sprite n="cam-down" x="2" y="38" w="34" h="34"/>
+    <sprite n="cam-left" x="38" y="38" w="34" h="34"/>
+    <sprite n="cam-right" x="74" y="38" w="34" h="34"/>
+    <sprite n="cam-up" x="110" y="38" w="34" h="34"/>
+    <sprite n="camera" x="146" y="38" w="34" h="34"/>
+    <sprite n="cancel" x="182" y="38" w="34" h="34"/>
+    <sprite n="closemap" x="218" y="38" w="34" h="34"/>
+    <sprite n="color-fill" x="254" y="38" w="34" h="34"/>
+    <sprite n="crop" x="290" y="38" w="34" h="34"/>
+    <sprite n="debug" x="326" y="38" w="34" h="34"/>
+    <sprite n="debuglines" x="362" y="38" w="34" h="34"/>
+    <sprite n="delete" x="398" y="38" w="34" h="34"/>
+    <sprite n="editmode" x="434" y="38" w="34" h="34"/>
+    <sprite n="editor-config" x="470" y="38" w="34" h="34"/>
+    <sprite n="exit" x="2" y="74" w="34" h="34"/>
+    <sprite n="export-icon" x="38" y="74" w="34" h="34"/>
+    <sprite n="filemanager" x="74" y="74" w="34" h="34"/>
+    <sprite n="fliphorizontal" x="110" y="74" w="34" h="34"/>
+    <sprite n="flipvertical" x="146" y="74" w="34" h="34"/>
+    <sprite n="folder-previous" x="182" y="74" w="34" h="34"/>
+    <sprite n="fps" x="218" y="74" w="34" h="34"/>
+    <sprite n="freehandmode" x="254" y="74" w="34" h="34"/>
+    <sprite n="fullscreen" x="290" y="74" w="34" h="34"/>
+    <sprite n="game" x="326" y="74" w="34" h="34"/>
+    <sprite n="gamemode" x="362" y="74" w="34" h="34"/>
+    <sprite n="gamepadconfig" x="398" y="74" w="34" h="34"/>
+    <sprite n="gamestructure" x="434" y="74" w="34" h="34"/>
+    <sprite n="gpu" x="470" y="74" w="34" h="34"/>
+    <sprite n="hand" x="2" y="110" w="34" h="34"/>
+    <sprite n="handheld-screen" x="38" y="110" w="34" h="34"/>
+    <sprite n="hint" x="74" y="110" w="34" h="34"/>
+    <sprite n="info" x="110" y="110" w="34" h="34"/>
+    <sprite n="joystick" x="146" y="110" w="34" h="34"/>
+    <sprite n="keyboard" x="182" y="110" w="34" h="34"/>
+    <sprite n="layers" x="218" y="110" w="34" h="34"/>
+    <sprite n="left-top-icon" x="254" y="110" w="34" h="34"/>
+    <sprite n="leftend" x="290" y="110" w="34" h="34"/>
+    <sprite n="level" x="326" y="110" w="34" h="34"/>
+    <sprite n="line-strip" x="362" y="110" w="34" h="34"/>
+    <sprite n="line" x="398" y="110" w="34" h="34"/>
+    <sprite n="logs" x="434" y="110" w="34" h="34"/>
+    <sprite n="mapfile" x="470" y="110" w="34" h="34"/>
+    <sprite n="mario" x="2" y="146" w="34" h="34"/>
+    <sprite n="microphone" x="38" y="146" w="34" h="34"/>
+    <sprite n="mouse-roller" x="74" y="146" w="34" h="34"/>
+    <sprite n="mouse" x="110" y="146" w="34" h="34"/>
+    <sprite n="mouse2" x="146" y="146" w="34" h="34"/>
+    <sprite n="move-camera" x="182" y="146" w="34" h="34"/>
+    <sprite n="move-icon" x="218" y="146" w="34" h="34"/>
+    <sprite n="move-layers" x="254" y="146" w="34" h="34"/>
+    <sprite n="move-player" x="290" y="146" w="34" h="34"/>
+    <sprite n="move" x="326" y="146" w="34" h="34"/>
+    <sprite n="multipleselect" x="362" y="146" w="34" h="34"/>
+    <sprite n="music" x="398" y="146" w="34" h="34"/>
+    <sprite n="navleft" x="434" y="146" w="34" h="34"/>
+    <sprite n="navright" x="470" y="146" w="34" h="34"/>
+    <sprite n="newmap" x="2" y="182" w="34" h="34"/>
+    <sprite n="next" x="38" y="182" w="34" h="34"/>
+    <sprite n="ok" x="74" y="182" w="34" h="34"/>
+    <sprite n="openmap" x="110" y="182" w="34" h="34"/>
+    <sprite n="paint" x="146" y="182" w="34" h="34"/>
+    <sprite n="player" x="182" y="182" w="34" h="34"/>
+    <sprite n="previous" x="218" y="182" w="34" h="34"/>
+    <sprite n="properties" x="254" y="182" w="34" h="34"/>
+    <sprite n="ps3" x="290" y="182" w="34" h="34"/>
+    <sprite n="psp-screen" x="326" y="182" w="34" h="34"/>
+    <sprite n="psp" x="362" y="182" w="34" h="34"/>
+    <sprite n="refresh" x="398" y="182" w="34" h="34"/>
+    <sprite n="remove" x="434" y="182" w="34" h="34"/>
+    <sprite n="rightend" x="470" y="182" w="34" h="34"/>
+    <sprite n="rotate" x="2" y="218" w="34" h="34"/>
+    <sprite n="sandcastle" x="38" y="218" w="34" h="34"/>
+    <sprite n="saveas" x="74" y="218" w="34" h="34"/>
+    <sprite n="savemap" x="110" y="218" w="34" h="34"/>
+    <sprite n="scale" x="146" y="218" w="34" h="34"/>
+    <sprite n="selectmany" x="182" y="218" w="34" h="34"/>
+    <sprite n="shoebox" x="218" y="218" w="34" h="34"/>
+    <sprite n="singleselect" x="254" y="218" w="34" h="34"/>
+    <sprite n="snapshot" x="290" y="218" w="34" h="34"/>
+    <sprite n="snowball" x="326" y="218" w="34" h="34"/>
+    <sprite n="sound" x="362" y="2" w="34" h="34"/>
+    <sprite n="soundeffects" x="362" y="218" w="34" h="34"/>
+    <sprite n="sprselector" x="398" y="218" w="34" h="34"/>
+    <sprite n="square" x="434" y="218" w="34" h="34"/>
+    <sprite n="squaredraw" x="182" y="218" w="34" h="34"/>
+    <sprite n="texturepacker" x="470" y="218" w="34" h="34"/>
+    <sprite n="tilelayout" x="2" y="254" w="34" h="34"/>
+    <sprite n="tilemode" x="38" y="254" w="34" h="34"/>
+    <sprite n="transparency" x="74" y="254" w="34" h="34"/>
+    <sprite n="warning" x="110" y="254" w="34" h="34"/>
+    <sprite n="wireframe" x="146" y="254" w="34" h="34"/>
+    <sprite n="wooden-box" x="182" y="254" w="34" h="34"/>
+    <sprite n="zoom-in" x="218" y="254" w="34" h="34"/>
+    <sprite n="zoom-out" x="254" y="254" w="34" h="34"/>
+</TextureAtlas>

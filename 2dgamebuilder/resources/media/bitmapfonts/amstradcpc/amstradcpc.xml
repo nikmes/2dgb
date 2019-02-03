@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:aa7b8e695f2aeaeb84dd014729621073:ce5373d00f6915bad4156b8ebaaa0f9a:ad70824f9d65a3d78c5dcb8679b02287$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="amstradcpc.png" width="153" height="153">
+    <sprite n="0" x="2" y="2" w="16" h="16"/>
+    <sprite n="1" x="21" y="2" w="16" h="16"/>
+    <sprite n="2" x="40" y="2" w="16" h="16"/>
+    <sprite n="3" x="59" y="2" w="16" h="16"/>
+    <sprite n="4" x="78" y="2" w="16" h="16"/>
+    <sprite n="5" x="97" y="2" w="16" h="16"/>
+    <sprite n="6" x="116" y="2" w="16" h="16"/>
+    <sprite n="7" x="135" y="2" w="16" h="16"/>
+    <sprite n="8" x="2" y="21" w="16" h="16"/>
+    <sprite n="9" x="21" y="21" w="16" h="16"/>
+    <sprite n="A" x="40" y="21" w="16" h="16"/>
+    <sprite n="B" x="59" y="21" w="16" h="16"/>
+    <sprite n="C" x="78" y="21" w="16" h="16"/>
+    <sprite n="D" x="97" y="21" w="16" h="16"/>
+    <sprite n="E" x="116" y="21" w="16" h="16"/>
+    <sprite n="F" x="135" y="21" w="16" h="16"/>
+    <sprite n="G" x="2" y="40" w="16" h="16"/>
+    <sprite n="H" x="21" y="40" w="16" h="16"/>
+    <sprite n="I" x="40" y="40" w="16" h="16"/>
+    <sprite n="J" x="59" y="40" w="16" h="16"/>
+    <sprite n="K" x="78" y="40" w="16" h="16"/>
+    <sprite n="L" x="97" y="40" w="16" h="16"/>
+    <sprite n="M" x="116" y="40" w="16" h="16"/>
+    <sprite n="N" x="135" y="40" w="16" h="16"/>
+    <sprite n="O" x="2" y="59" w="16" h="16"/>
+    <sprite n="P" x="21" y="59" w="16" h="16"/>
+    <sprite n="Q" x="40" y="59" w="16" h="16"/>
+    <sprite n="R" x="59" y="59" w="16" h="16"/>
+    <sprite n="S" x="78" y="59" w="16" h="16"/>
+    <sprite n="T" x="97" y="59" w="16" h="16"/>
+    <sprite n="U" x="116" y="59" w="16" h="16"/>
+    <sprite n="V" x="135" y="59" w="16" h="16"/>
+    <sprite n="W" x="2" y="78" w="16" h="16"/>
+    <sprite n="X" x="21" y="78" w="16" h="16"/>
+    <sprite n="Y" x="40" y="78" w="16" h="16"/>
+    <sprite n="Z" x="59" y="78" w="16" h="16"/>
+    <sprite n="a" x="78" y="78" w="16" h="16"/>
+    <sprite n="b" x="97" y="78" w="16" h="16"/>
+    <sprite n="c" x="116" y="78" w="16" h="16"/>
+    <sprite n="d" x="135" y="78" w="16" h="16"/>
+    <sprite n="e" x="2" y="97" w="16" h="16"/>
+    <sprite n="f" x="21" y="97" w="16" h="16"/>
+    <sprite n="g" x="40" y="97" w="16" h="16"/>
+    <sprite n="h" x="59" y="97" w="16" h="16"/>
+    <sprite n="i" x="78" y="97" w="16" h="16"/>
+    <sprite n="j" x="97" y="97" w="16" h="16"/>
+    <sprite n="k" x="116" y="97" w="16" h="16"/>
+    <sprite n="l" x="135" y="97" w="16" h="16"/>
+    <sprite n="m" x="2" y="116" w="16" h="16"/>
+    <sprite n="n" x="21" y="116" w="16" h="16"/>
+    <sprite n="o" x="40" y="116" w="16" h="16"/>
+    <sprite n="p" x="59" y="116" w="16" h="16"/>
+    <sprite n="q" x="78" y="116" w="16" h="16"/>
+    <sprite n="r" x="97" y="116" w="16" h="16"/>
+    <sprite n="s" x="116" y="116" w="16" h="16"/>
+    <sprite n="t" x="135" y="116" w="16" h="16"/>
+    <sprite n="u" x="2" y="135" w="16" h="16"/>
+    <sprite n="v" x="21" y="135" w="16" h="16"/>
+    <sprite n="w" x="40" y="135" w="16" h="16"/>
+    <sprite n="x" x="59" y="135" w="16" h="16"/>
+    <sprite n="y" x="78" y="135" w="16" h="16"/>
+    <sprite n="z" x="97" y="135" w="16" h="16"/>
+</TextureAtlas>

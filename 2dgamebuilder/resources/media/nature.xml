@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:6c45176dea291cb0f5171e1c0e162136:f8829cfb320255940989d8deca9718aa:a919a13ab441e72624f2cb2d960cd7f9$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="nature.png" width="512" height="512">
+    <sprite n="1" x="148" y="148" w="66" h="66"/>
+    <sprite n="10" x="76" y="148" w="66" h="66"/>
+    <sprite n="11" x="220" y="148" w="66" h="66"/>
+    <sprite n="12" x="4" y="148" w="66" h="66"/>
+    <sprite n="13" x="364" y="76" w="66" h="49"/>
+    <sprite n="14" x="292" y="76" w="66" h="49"/>
+    <sprite n="15" x="292" y="148" w="66" h="49"/>
+    <sprite n="16" x="436" y="76" w="66" h="66"/>
+    <sprite n="17" x="76" y="220" w="66" h="52"/>
+    <sprite n="18" x="436" y="148" w="66" h="66"/>
+    <sprite n="2" x="4" y="220" w="66" h="66"/>
+    <sprite n="3" x="364" y="148" w="66" h="66"/>
+    <sprite n="4" x="148" y="220" w="67" h="67"/>
+    <sprite n="5" x="405" y="4" w="66" h="66"/>
+    <sprite n="6" x="4" y="76" w="66" h="66"/>
+    <sprite n="7" x="220" y="76" w="66" h="66"/>
+    <sprite n="8" x="148" y="76" w="66" h="66"/>
+    <sprite n="9" x="76" y="76" w="66" h="66"/>
+    <sprite n="Bush (1)" x="221" y="220" w="69" h="35"/>
+    <sprite n="Bush (2)" x="296" y="220" w="69" h="35"/>
+    <sprite n="Bush (3)" x="149" y="4" w="39" h="26"/>
+    <sprite n="Bush (4)" x="194" y="4" w="39" h="25"/>
+    <sprite n="Crate" x="239" y="4" w="41" h="41"/>
+    <sprite n="Mushroom_1" x="4" y="4" w="27" h="23"/>
+    <sprite n="Mushroom_2" x="37" y="4" w="27" h="23"/>
+    <sprite n="Sign_1" x="109" y="4" w="34" h="35"/>
+    <sprite n="Sign_2" x="70" y="4" w="33" h="34"/>
+    <sprite n="Stone" x="286" y="4" w="47" h="29"/>
+    <sprite n="Tree_1" x="339" y="4" w="60" h="24"/>
+    <sprite n="Tree_2" x="4" y="293" w="143" h="153"/>
+    <sprite n="Tree_3" x="153" y="293" w="143" h="140"/>
+</TextureAtlas>

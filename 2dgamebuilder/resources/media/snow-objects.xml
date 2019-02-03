@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:63010b5bd0f0fffbef296b0779bc22a3:80255470384ccceb7c7c96e9493ca753:62603e82fcbd25dc7fd2fb9e8c7b9810$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="snow-objects.png" width="512" height="512">
+    <sprite n="Crate" x="2" y="2" w="32" h="32"/>
+    <sprite n="Crystal" x="36" y="2" w="31" h="25"/>
+    <sprite n="IceBox" x="69" y="2" w="32" h="32"/>
+    <sprite n="Igloo" x="103" y="2" w="155" h="62"/>
+    <sprite n="Sign_1" x="260" y="2" w="28" h="30"/>
+    <sprite n="Sign_2" x="290" y="2" w="28" h="30"/>
+    <sprite n="SnowMan" x="320" y="2" w="60" h="65"/>
+    <sprite n="Stone" x="382" y="2" w="39" h="25"/>
+    <sprite n="Tree_1" x="2" y="69" w="111" h="86"/>
+    <sprite n="Tree_2" x="115" y="69" w="70" h="86"/>
+</TextureAtlas>

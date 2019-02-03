@@ -1,0 +1,667 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{435f04d6-f771-482d-804f-8ac457e26a39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\services">
+      <UniqueIdentifier>{7efa0fef-8d56-4ee1-897f-26fa727abc7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\imguicomponents">
+      <UniqueIdentifier>{6b1e359b-b594-40d0-b4c3-c0601e7b075e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\imguicomponents\windows">
+      <UniqueIdentifier>{3ec1e661-d463-428d-80ba-90a1ef078850}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\imguicomponents\toolbars">
+      <UniqueIdentifier>{fb3b79b3-fb7e-49e8-9998-5d6dc43773ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\imguicomponents">
+      <UniqueIdentifier>{c6d9dabb-8983-40fe-9357-35d7309dcd6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\libs">
+      <UniqueIdentifier>{08379ddd-327b-40a3-9f77-8f3c785496a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\services">
+      <UniqueIdentifier>{49f2cb18-fef1-4aa9-a103-2245c3a835ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\states">
+      <UniqueIdentifier>{79552693-4116-4f9f-8f34-6733c27361ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\utils">
+      <UniqueIdentifier>{44885678-e925-4792-8112-7a6e30a81ea6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\states\editor-states">
+      <UniqueIdentifier>{38da711f-ff7d-4c92-9401-8a89747c331f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\states\game-states">
+      <UniqueIdentifier>{2824bf91-7285-4771-8d86-b21627a8b4f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\services\servicelocator">
+      <UniqueIdentifier>{728f1d38-fd48-4fe1-b24e-1722d990d459}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\services\serviceproviders">
+      <UniqueIdentifier>{b915176a-5972-40f6-ba7b-cfd66ff2dd07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\libs\libpng">
+      <UniqueIdentifier>{c8ac43da-3d7e-4e43-8639-99df0b3c4c90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\libs\imgui">
+      <UniqueIdentifier>{36a8b328-cb82-4dc8-b41f-f98e356e7320}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\libs\glib2d">
+      <UniqueIdentifier>{2800481d-72dd-43b0-856b-1d9c8ee318e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\imguicomponents\toolbars">
+      <UniqueIdentifier>{a11c4bb4-d92b-4140-9a5b-b3e885854188}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\imguicomponents\windows">
+      <UniqueIdentifier>{d71bdf55-ccc3-4c08-a781-5e2bee8a731e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\services\serviceproviders\levelcomponents">
+      <UniqueIdentifier>{d97e792e-fcaf-4527-9435-e9d6576b9668}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\states">
+      <UniqueIdentifier>{aedae180-9320-4489-b10b-86fef4a2b106}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utils">
+      <UniqueIdentifier>{07c3dc0c-71d6-419f-b245-f56c0983af2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs">
+      <UniqueIdentifier>{63274eb6-ade0-4598-821d-613898ec8980}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\glib2d">
+      <UniqueIdentifier>{ad0bf091-1429-4c0a-9c17-7124b78e3a81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\imgui">
+      <UniqueIdentifier>{d0f3b117-822d-4465-8960-a01391a0642b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\libpng">
+      <UniqueIdentifier>{7f14d8e2-d4db-42ad-9596-fdcee080f2f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\zlib">
+      <UniqueIdentifier>{a0e9b29b-778c-4c52-8981-a0b6f706cad3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\libs\zlib">
+      <UniqueIdentifier>{6f9eede0-ff88-434f-9c19-47b5d24aea31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\states\editor-states">
+      <UniqueIdentifier>{8cd96d7a-54b6-48a0-b49b-1fa6fcef0a60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\states\game-states">
+      <UniqueIdentifier>{21fedee8-f151-4f55-849a-c4059e2bfc23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\services\serviceproviders">
+      <UniqueIdentifier>{94446cad-b96c-4c70-9ff7-8e08fbd97604}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\services\servicelocator">
+      <UniqueIdentifier>{9e5969e2-34a7-4c57-81fa-ba8fe0fb4850}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\services\serviceproviders\levelcomponents">
+      <UniqueIdentifier>{f2050892-c883-4efc-88d3-4d7f4711405c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\libs\tinyc2">
+      <UniqueIdentifier>{06a3b782-2423-4629-a974-d5c5b48a20f4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="inc\application.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\box2ddebugdraw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\definitions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\fontstash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\glfontstash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\globals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\parameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\textureatlas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\pgezip.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\utils.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\utils_filesystem.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\utils_string.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\servicelocator.h">
+      <Filter>Header Files\services\servicelocator</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\xmlconfigurationprovider.h">
+      <Filter>Header Files\services\serviceproviders</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\pcaudioprovider.h">
+      <Filter>Header Files\services\serviceproviders</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\pctextprovider.h">
+      <Filter>Header Files\services\serviceproviders</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\gameprovider.h">
+      <Filter>Header Files\services\serviceproviders</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\filelogprovider.h">
+      <Filter>Header Files\services\serviceproviders</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\gridprovider.h">
+      <Filter>Header Files\services\serviceproviders</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\imguicomponentprovider.h">
+      <Filter>Header Files\services\serviceproviders</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\libpng\pngdebug.h">
+      <Filter>Header Files\libs\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\libpng\pnginfo.h">
+      <Filter>Header Files\libs\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\libpng\pngpriv.h">
+      <Filter>Header Files\libs\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\libpng\pngstruct.h">
+      <Filter>Header Files\libs\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\imgui\stb_image_write.h">
+      <Filter>Header Files\libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\imgui\stb_rect_pack.h">
+      <Filter>Header Files\libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\imgui\stb_textedit.h">
+      <Filter>Header Files\libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\imgui\stb_truetype.h">
+      <Filter>Header Files\libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\imgui\imgui.h">
+      <Filter>Header Files\libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\imgui\imgui_internal.h">
+      <Filter>Header Files\libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\imgui\imconfig.h">
+      <Filter>Header Files\libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\imguiprovider.h">
+      <Filter>Header Files\services\serviceproviders</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\cameraprovider.h">
+      <Filter>Header Files\services\serviceproviders</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\glib2d\glib2d.h">
+      <Filter>Header Files\libs\glib2d</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\applicationstate.h">
+      <Filter>Header Files\states\editor-states</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\glfwvideoprovider.h">
+      <Filter>Header Files\services\serviceproviders</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\glfwinputprovider.h">
+      <Filter>Header Files\services\serviceproviders</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\editbar.h">
+      <Filter>Header Files\imguicomponents\toolbars</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\levelbar.h">
+      <Filter>Header Files\imguicomponents\toolbars</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\maintoolbar.h">
+      <Filter>Header Files\imguicomponents\toolbars</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\box2dworldwindow.h">
+      <Filter>Header Files\imguicomponents\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\camerapropertieswindow.h">
+      <Filter>Header Files\imguicomponents\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\colorpickerwindow.h">
+      <Filter>Header Files\imguicomponents\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\filedialogwindow.h">
+      <Filter>Header Files\imguicomponents\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\gamepadswindow.h">
+      <Filter>Header Files\imguicomponents\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\gridpropertieswindow.h">
+      <Filter>Header Files\imguicomponents\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\layerpropertieswindow.h">
+      <Filter>Header Files\imguicomponents\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\preferenceswindow.h">
+      <Filter>Header Files\imguicomponents\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\renderingstatswindow.h">
+      <Filter>Header Files\imguicomponents\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\screenshotwindow.h">
+      <Filter>Header Files\imguicomponents\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\spritepropertieswindow.h">
+      <Filter>Header Files\imguicomponents\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\audiobar.h">
+      <Filter>Header Files\imguicomponents\toolbars</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\editstate.h">
+      <Filter>Header Files\states\editor-states</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\gamebar.h">
+      <Filter>Header Files\imguicomponents\toolbars</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\layerbar.h">
+      <Filter>Header Files\imguicomponents\toolbars</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\physicsbar.h">
+      <Filter>Header Files\imguicomponents\toolbars</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\gameintrostate.h">
+      <Filter>Header Files\states\game-states</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\gamemenustate.h">
+      <Filter>Header Files\states\game-states</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\gameplaystate.h">
+      <Filter>Header Files\states\game-states</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\physicsstate.h">
+      <Filter>Header Files\states\editor-states</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\sandboxstate.h">
+      <Filter>Header Files\states\editor-states</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\introstate.h">
+      <Filter>Header Files\states\editor-states</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\camera.h">
+      <Filter>Header Files\services\serviceproviders\levelcomponents</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\level.h">
+      <Filter>Header Files\services\serviceproviders\levelcomponents</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\layer.h">
+      <Filter>Header Files\services\serviceproviders\levelcomponents</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\sprite.h">
+      <Filter>Header Files\services\serviceproviders\levelcomponents</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\spritebatch.h">
+      <Filter>Header Files\services\serviceproviders\levelcomponents</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\imguicomponent.h">
+      <Filter>Header Files\imguicomponents</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\loggerwindow.h">
+      <Filter>Header Files\imguicomponents\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\levelprovider.h">
+      <Filter>Header Files\services\serviceproviders</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\helpprovider.h">
+      <Filter>Header Files\services\serviceproviders</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\renderprovider.h">
+      <Filter>Header Files\services\serviceproviders</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\stateprovider.h">
+      <Filter>Header Files\services\serviceproviders</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\textureprovider.h">
+      <Filter>Header Files\services\serviceproviders</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\spriteselector.h">
+      <Filter>Header Files\imguicomponents\toolbars</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\zlib\crc32.h">
+      <Filter>Header Files\libs\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\zlib\deflate.h">
+      <Filter>Header Files\libs\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\zlib\gzguts.h">
+      <Filter>Header Files\libs\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\zlib\inffast.h">
+      <Filter>Header Files\libs\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\zlib\inffixed.h">
+      <Filter>Header Files\libs\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\zlib\inflate.h">
+      <Filter>Header Files\libs\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\zlib\inftrees.h">
+      <Filter>Header Files\libs\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\zlib\trees.h">
+      <Filter>Header Files\libs\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\zlib\zconf.h">
+      <Filter>Header Files\libs\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\zlib\zlib.h">
+      <Filter>Header Files\libs\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\zlib\zutil.h">
+      <Filter>Header Files\libs\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\benchmarkstate.h">
+      <Filter>Header Files\states\editor-states</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\benchmarkingwindow.h">
+      <Filter>Header Files\imguicomponents\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\tinyc2.h">
+      <Filter>Header Files\libs\tinyc2</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\box2ddebugdraw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\globals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\textureatlas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\filedialogwindow.cpp">
+      <Filter>Source Files\imguicomponents\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gamebar.cpp">
+      <Filter>Source Files\imguicomponents\toolbars</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editbar.cpp">
+      <Filter>Source Files\imguicomponents\toolbars</Filter>
+    </ClCompile>
+    <ClCompile Include="src\preferenceswindow.cpp">
+      <Filter>Source Files\imguicomponents\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\renderingstatswindow.cpp">
+      <Filter>Source Files\imguicomponents\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spritepropertieswindow.cpp">
+      <Filter>Source Files\imguicomponents\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\screenshotwindow.cpp">
+      <Filter>Source Files\imguicomponents\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layerpropertieswindow.cpp">
+      <Filter>Source Files\imguicomponents\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\loggerwindow.cpp">
+      <Filter>Source Files\imguicomponents\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gridpropertieswindow.cpp">
+      <Filter>Source Files\imguicomponents\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\camerapropertieswindow.cpp">
+      <Filter>Source Files\imguicomponents\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\colorpickerwindow.cpp">
+      <Filter>Source Files\imguicomponents\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\glib2d\glib2d.cpp">
+      <Filter>Source Files\libs\glib2d</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_demo.cpp">
+      <Filter>Source Files\libs\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_draw.cpp">
+      <Filter>Source Files\libs\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui.cpp">
+      <Filter>Source Files\libs\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libpng\pngerror.c">
+      <Filter>Source Files\libs\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libpng\png.c">
+      <Filter>Source Files\libs\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libpng\pngget.c">
+      <Filter>Source Files\libs\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libpng\pngmem.c">
+      <Filter>Source Files\libs\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libpng\pngpread.c">
+      <Filter>Source Files\libs\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libpng\pngread.c">
+      <Filter>Source Files\libs\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libpng\pngrio.c">
+      <Filter>Source Files\libs\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libpng\pngrutil.c">
+      <Filter>Source Files\libs\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libpng\pngrtran.c">
+      <Filter>Source Files\libs\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libpng\pngwutil.c">
+      <Filter>Source Files\libs\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libpng\pngwtran.c">
+      <Filter>Source Files\libs\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libpng\pngwrite.c">
+      <Filter>Source Files\libs\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libpng\pngwio.c">
+      <Filter>Source Files\libs\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libpng\pngtrans.c">
+      <Filter>Source Files\libs\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libpng\pngset.c">
+      <Filter>Source Files\libs\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="src\zlib\adler32.c">
+      <Filter>Source Files\libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\zlib\compress.c">
+      <Filter>Source Files\libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\zlib\crc32.c">
+      <Filter>Source Files\libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\zlib\deflate.c">
+      <Filter>Source Files\libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\zlib\gzclose.c">
+      <Filter>Source Files\libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\zlib\gzlib.c">
+      <Filter>Source Files\libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\zlib\gzread.c">
+      <Filter>Source Files\libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\zlib\gzwrite.c">
+      <Filter>Source Files\libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\zlib\infback.c">
+      <Filter>Source Files\libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\zlib\inffast.c">
+      <Filter>Source Files\libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\zlib\inflate.c">
+      <Filter>Source Files\libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\zlib\inftrees.c">
+      <Filter>Source Files\libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\zlib\trees.c">
+      <Filter>Source Files\libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\zlib\uncompr.c">
+      <Filter>Source Files\libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\zlib\zutil.c">
+      <Filter>Source Files\libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameintrostate.cpp">
+      <Filter>Source Files\states\game-states</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gamemenustate.cpp">
+      <Filter>Source Files\states\game-states</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gamepadswindow.cpp">
+      <Filter>Source Files\imguicomponents\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\box2dworldwindow.cpp">
+      <Filter>Source Files\imguicomponents\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gridprovider.cpp">
+      <Filter>Source Files\services\serviceproviders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\helpprovider.cpp">
+      <Filter>Source Files\services\serviceproviders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imguiprovider.cpp">
+      <Filter>Source Files\services\serviceproviders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\glfwinputprovider.cpp">
+      <Filter>Source Files\services\serviceproviders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cameraprovider.cpp">
+      <Filter>Source Files\services\serviceproviders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pcaudioprovider.cpp">
+      <Filter>Source Files\services\serviceproviders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pctextprovider.cpp">
+      <Filter>Source Files\services\serviceproviders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\renderprovider.cpp">
+      <Filter>Source Files\services\serviceproviders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\texturepovider.cpp">
+      <Filter>Source Files\services\serviceproviders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stateprovider.cpp">
+      <Filter>Source Files\services\serviceproviders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\xmlconfigurationprovider.cpp">
+      <Filter>Source Files\services\serviceproviders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\filelogprovider.cpp">
+      <Filter>Source Files\services\serviceproviders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameprovider.cpp">
+      <Filter>Source Files\services\serviceproviders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\levelbar.cpp">
+      <Filter>Source Files\imguicomponents\toolbars</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layerbar.cpp">
+      <Filter>Source Files\imguicomponents\toolbars</Filter>
+    </ClCompile>
+    <ClCompile Include="src\maintoolbar.cpp">
+      <Filter>Source Files\imguicomponents\toolbars</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physicsbar.cpp">
+      <Filter>Source Files\imguicomponents\toolbars</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spriteselector.cpp">
+      <Filter>Source Files\imguicomponents\toolbars</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editstate.cpp">
+      <Filter>Source Files\states\editor-states</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameplaystate.cpp">
+      <Filter>Source Files\states\game-states</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imguicomponentprovider.cpp">
+      <Filter>Source Files\services\serviceproviders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spritebatch.cpp">
+      <Filter>Source Files\services\serviceproviders\levelcomponents</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sprite.cpp">
+      <Filter>Source Files\services\serviceproviders\levelcomponents</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer.cpp">
+      <Filter>Source Files\services\serviceproviders\levelcomponents</Filter>
+    </ClCompile>
+    <ClCompile Include="src\level.cpp">
+      <Filter>Source Files\services\serviceproviders\levelcomponents</Filter>
+    </ClCompile>
+    <ClCompile Include="src\introstate.cpp">
+      <Filter>Source Files\states\editor-states</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils_filesystem.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils_string.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pgezip.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\servicelocator.cpp">
+      <Filter>Source Files\services\servicelocator</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physicsstate.cpp">
+      <Filter>Source Files\states\editor-states</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sandboxstate.cpp">
+      <Filter>Source Files\states\editor-states</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imguicomponent.cpp">
+      <Filter>Source Files\imguicomponents</Filter>
+    </ClCompile>
+    <ClCompile Include="src\benchmarkstate.cpp">
+      <Filter>Source Files\states\editor-states</Filter>
+    </ClCompile>
+    <ClCompile Include="src\benchmarkingwindow.cpp">
+      <Filter>Source Files\imguicomponents\windows</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="resources\resources\config.xml">
+      <Filter>Resources</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

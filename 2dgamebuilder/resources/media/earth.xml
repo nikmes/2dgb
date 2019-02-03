@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:f10d0b911a79310eec3121b841d060d5:3a90ee78963fdfad4a9ff4233baf6fd8:da8da7cb54b3ac2aee9c64de9eb721b3$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="earth.png" width="256" height="256">
+    <sprite n="grass1" x="4" y="4" w="130" h="60" oX="0" oY="6" oW="130" oH="68"/>
+    <sprite n="grass2" x="4" y="70" w="130" h="58" oX="0" oY="10" oW="130" oH="68"/>
+</TextureAtlas>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:3b3a125cf9c5e365aa69906b63995dda:56c3dc827bbbb347b322a0630a3ca93f:e2e5c54e7d464fb7ddaa26f2e78fd88e$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="medievil.png" width="512" height="512">
+    <sprite n="bg_tile (1)" x="1" y="1" w="32" h="32"/>
+    <sprite n="bg_tile (10)" x="37" y="1" w="32" h="32"/>
+    <sprite n="bg_tile (11)" x="73" y="1" w="32" h="32"/>
+    <sprite n="bg_tile (12)" x="109" y="1" w="32" h="32"/>
+    <sprite n="bg_tile (13)" x="145" y="1" w="32" h="32"/>
+    <sprite n="bg_tile (2)" x="181" y="1" w="32" h="32"/>
+    <sprite n="bg_tile (3)" x="217" y="1" w="32" h="32"/>
+    <sprite n="bg_tile (4)" x="253" y="1" w="32" h="32"/>
+    <sprite n="bg_tile (5)" x="289" y="1" w="32" h="32"/>
+    <sprite n="bg_tile (6)" x="325" y="1" w="32" h="32"/>
+    <sprite n="bg_tile (7)" x="361" y="1" w="32" h="32"/>
+    <sprite n="bg_tile (8)" x="397" y="1" w="32" h="32"/>
+    <sprite n="bg_tile (9)" x="433" y="1" w="32" h="32"/>
+    <sprite n="brown_tile (1)" x="469" y="1" w="32" h="32"/>
+    <sprite n="brown_tile (10)" x="1" y="37" w="32" h="32"/>
+    <sprite n="brown_tile (11)" x="37" y="37" w="32" h="32"/>
+    <sprite n="brown_tile (12)" x="73" y="37" w="32" h="32"/>
+    <sprite n="brown_tile (13)" x="109" y="37" w="32" h="32"/>
+    <sprite n="brown_tile (14)" x="145" y="37" w="32" h="32"/>
+    <sprite n="brown_tile (15)" x="181" y="37" w="32" h="28" oX="0" oY="0" oW="32" oH="32"/>
+    <sprite n="brown_tile (16)" x="217" y="37" w="32" h="28" oX="0" oY="0" oW="32" oH="32"/>
+    <sprite n="brown_tile (17)" x="253" y="37" w="32" h="28" oX="0" oY="0" oW="32" oH="32"/>
+    <sprite n="brown_tile (18)" x="289" y="37" w="32" h="32"/>
+    <sprite n="brown_tile (19)" x="325" y="37" w="32" h="32"/>
+    <sprite n="brown_tile (20)" x="361" y="37" w="32" h="32"/>
+    <sprite n="brown_tile (21)" x="397" y="37" w="32" h="32"/>
+    <sprite n="brown_tile (22)" x="433" y="37" w="32" h="32"/>
+    <sprite n="brown_tile (23)" x="469" y="37" w="32" h="32"/>
+    <sprite n="brown_tile (24)" x="1" y="73" w="32" h="32"/>
+    <sprite n="brown_tile (25)" x="37" y="73" w="32" h="18" oX="0" oY="14" oW="32" oH="32"/>
+    <sprite n="brown_tile (26)" x="73" y="73" w="32" h="32"/>
+    <sprite n="brown_tile (27)" x="109" y="73" w="32" h="32"/>
+    <sprite n="brown_tile (28)" x="145" y="73" w="32" h="32"/>
+    <sprite n="brown_tile (29)" x="181" y="73" w="32" h="32"/>
+    <sprite n="brown_tile (3)" x="217" y="73" w="32" h="32"/>
+    <sprite n="brown_tile (30)" x="253" y="73" w="32" h="18" oX="0" oY="14" oW="32" oH="32"/>
+    <sprite n="brown_tile (31)" x="289" y="73" w="32" h="32"/>
+    <sprite n="brown_tile (32)" x="325" y="73" w="32" h="32"/>
+    <sprite n="brown_tile (33)" x="361" y="73" w="32" h="32"/>
+    <sprite n="brown_tile (34)" x="397" y="73" w="32" h="32"/>
+    <sprite n="brown_tile (35)" x="433" y="73" w="32" h="32"/>
+    <sprite n="brown_tile (37)" x="469" y="73" w="32" h="32"/>
+    <sprite n="brown_tile (38)" x="1" y="109" w="32" h="32"/>
+    <sprite n="brown_tile (39)" x="37" y="109" w="32" h="32"/>
+    <sprite n="brown_tile (4)" x="73" y="109" w="32" h="32"/>
+    <sprite n="brown_tile (40)" x="109" y="109" w="32" h="32"/>
+    <sprite n="brown_tile (42)" x="145" y="109" w="32" h="32"/>
+    <sprite n="brown_tile (43)" x="181" y="109" w="32" h="32"/>
+    <sprite n="brown_tile (44)" x="217" y="109" w="32" h="32"/>
+    <sprite n="brown_tile (5)" x="253" y="109" w="32" h="32"/>
+    <sprite n="brown_tile (6)" x="289" y="109" w="32" h="32"/>
+    <sprite n="brown_tile (7)" x="325" y="109" w="32" h="32"/>
+    <sprite n="brown_tile (8)" x="361" y="109" w="32" h="32"/>
+    <sprite n="brown_tile (9)" x="397" y="109" w="32" h="32"/>
+    <sprite n="tileset (1)" x="433" y="109" w="32" h="32"/>
+    <sprite n="tileset (10)" x="469" y="109" w="32" h="32"/>
+    <sprite n="tileset (11)" x="1" y="145" w="32" h="18" oX="0" oY="14" oW="32" oH="32"/>
+    <sprite n="tileset (12)" x="37" y="145" w="32" h="32"/>
+    <sprite n="tileset (13)" x="73" y="145" w="32" h="32"/>
+    <sprite n="tileset (14)" x="109" y="145" w="32" h="32"/>
+    <sprite n="tileset (15)" x="145" y="145" w="32" h="18" oX="0" oY="14" oW="32" oH="32"/>
+    <sprite n="tileset (16)" x="181" y="145" w="32" h="32"/>
+    <sprite n="tileset (17)" x="217" y="145" w="32" h="32"/>
+    <sprite n="tileset (19)" x="253" y="145" w="32" h="32"/>
+    <sprite n="tileset (2)" x="289" y="145" w="32" h="32"/>
+    <sprite n="tileset (20)" x="325" y="145" w="32" h="32"/>
+    <sprite n="tileset (21)" x="361" y="145" w="32" h="32"/>
+    <sprite n="tileset (22)" x="397" y="145" w="32" h="32"/>
+    <sprite n="tileset (24)" x="433" y="145" w="32" h="32"/>
+    <sprite n="tileset (25)" x="469" y="145" w="32" h="32"/>
+    <sprite n="tileset (26)" x="1" y="181" w="32" h="32"/>
+    <sprite n="tileset (27)" x="37" y="181" w="32" h="32"/>
+    <sprite n="tileset (29)" x="73" y="181" w="32" h="32"/>
+    <sprite n="tileset (3)" x="109" y="181" w="32" h="32"/>
+    <sprite n="tileset (30)" x="145" y="181" w="32" h="32"/>
+    <sprite n="tileset (31)" x="181" y="181" w="32" h="32"/>
+    <sprite n="tileset (32)" x="217" y="181" w="32" h="32"/>
+    <sprite n="tileset (33)" x="253" y="181" w="32" h="32"/>
+    <sprite n="tileset (34)" x="289" y="181" w="32" h="32"/>
+    <sprite n="tileset (35)" x="325" y="181" w="32" h="32"/>
+    <sprite n="tileset (36)" x="361" y="181" w="32" h="32"/>
+    <sprite n="tileset (37)" x="397" y="181" w="32" h="32"/>
+    <sprite n="tileset (38)" x="433" y="181" w="32" h="32"/>
+    <sprite n="tileset (39)" x="469" y="181" w="32" h="32"/>
+    <sprite n="tileset (4)" x="1" y="217" w="32" h="32"/>
+    <sprite n="tileset (40)" x="37" y="217" w="32" h="32"/>
+    <sprite n="tileset (41)" x="73" y="217" w="32" h="28" oX="0" oY="0" oW="32" oH="32"/>
+    <sprite n="tileset (42)" x="109" y="217" w="32" h="28" oX="0" oY="0" oW="32" oH="32"/>
+    <sprite n="tileset (43)" x="145" y="217" w="32" h="28" oX="0" oY="0" oW="32" oH="32"/>
+    <sprite n="tileset (44)" x="181" y="217" w="32" h="32"/>
+    <sprite n="tileset (5)" x="217" y="217" w="32" h="32"/>
+    <sprite n="tileset (6)" x="253" y="217" w="32" h="32"/>
+    <sprite n="tileset (7)" x="289" y="217" w="32" h="32"/>
+    <sprite n="tileset (8)" x="325" y="217" w="32" h="32"/>
+    <sprite n="tileset (9)" x="361" y="217" w="32" h="32"/>
+</TextureAtlas>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="snow-tiles.png" width="512" height="512">
+    <sprite n="1" x="4" y="4" w="40" h="40"/>
+    <sprite n="10" x="50" y="4" w="40" h="40"/>
+    <sprite n="11" x="96" y="4" w="40" h="40"/>
+    <sprite n="12" x="142" y="4" w="40" h="40"/>
+    <sprite n="13" x="188" y="4" w="40" h="40"/>
+    <sprite n="14" x="234" y="4" w="40" h="30"/>
+    <sprite n="15" x="280" y="4" w="40" h="30"/>
+    <sprite n="16" x="326" y="4" w="40" h="30"/>
+    <sprite n="17" x="372" y="4" w="40" h="32"/>
+    <sprite n="18" x="418" y="4" w="40" h="40"/>
+    <sprite n="2" x="464" y="4" w="40" h="40"/>
+    <sprite n="3" x="4" y="50" w="40" h="40"/>
+    <sprite n="4" x="50" y="50" w="40" h="40"/>
+    <sprite n="5" x="96" y="50" w="40" h="40"/>
+    <sprite n="6" x="142" y="50" w="40" h="40"/>
+    <sprite n="7" x="188" y="50" w="40" h="40"/>
+    <sprite n="8" x="234" y="50" w="40" h="40"/>
+    <sprite n="9" x="280" y="50" w="40" h="40"/>
+</TextureAtlas>

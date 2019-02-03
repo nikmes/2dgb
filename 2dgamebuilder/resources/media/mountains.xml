@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:08aee8a51c103a65b563b9eb056b40f6:7051fdd199fcac17d64fc2e387a995cc:2a30da461d055b4219ff4846fa18ced3$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="mountains.png" width="512" height="512">
+    <sprite n="Mountains" x="2" y="2" w="292" h="196" oX="0" oY="67" oW="292" oH="292"/>
+    <sprite n="SnowCappedMountains" x="2" y="200" w="292" h="196" oX="0" oY="67" oW="292" oH="292"/>
+</TextureAtlas>

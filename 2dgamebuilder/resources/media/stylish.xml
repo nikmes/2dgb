@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:2d6b6371c1009e10f073cbc2d9615e5b:83d9b70675e41c1ff257ad419ee6ac66:86d8c65d7a99968481fe9f85ae3ab79a$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="stylish.png" width="512" height="512">
+    <sprite n="stone" x="2" y="2" w="124" h="140" oX="9" oY="31" oW="164" oH="196"/>
+    <sprite n="tree-cut" x="128" y="2" w="73" h="78" oX="3" oY="12" oW="83" oH="100"/>
+    <sprite n="tree-faint-green" x="203" y="2" w="134" h="147" oX="11" oY="17" oW="162" oH="179"/>
+    <sprite n="tree-green" x="339" y="2" w="119" h="126" oX="8" oY="12" oW="139" oH="148"/>
+    <sprite n="tree-pointi" x="2" y="151" w="111" h="147" oX="19" oY="7" oW="135" oH="165"/>
+    <sprite n="tree-thin" x="115" y="151" w="81" h="155" oX="14" oY="17" oW="99" oH="179"/>
+    <sprite n="tree-trunk-grass" x="198" y="151" w="104" h="82" oX="19" oY="22" oW="124" oH="114"/>
+    <sprite n="tree-trunk" x="304" y="151" w="103" h="118" oX="24" oY="19" oW="149" oH="144"/>
+</TextureAtlas>
