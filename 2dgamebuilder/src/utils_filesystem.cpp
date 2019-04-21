@@ -208,9 +208,11 @@ namespace utils
 		string_vector lDirList;
 
 		long lHandle, res;
+
 		struct _finddata_t tagData;
 
 		std::string sPattern;
+
 		if (sRelPath.empty())
 			sPattern = "*";
 		else

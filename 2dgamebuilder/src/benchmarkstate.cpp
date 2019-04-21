@@ -76,8 +76,8 @@ void CBenchMarkState::draw()
 	int height, width;
 
 	std::default_random_engine generator;
-	std::uniform_real_distribution<float> x(64, 1896);
-	std::uniform_real_distribution<float> y(60, 1140);
+	std::uniform_real_distribution<float> x(64, 2880);
+	std::uniform_real_distribution<float> y(60, 1800);
 	std::uniform_real_distribution<float> c(50, 255);
 	std::uniform_real_distribution<float> a(0, 255);
 

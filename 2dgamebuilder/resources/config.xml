@@ -18,7 +18,7 @@
     </log>
     <video>
         <param name="resolution" value="1038x522" />
-        <param name="fullscreen" value="No" />
+        <param name="fullscreen" value="Yes" />
         <param name="rendermode" value="DARRAY" />
         <param name="rendermode" value="VBO" />
         <param name="rendermode" value="PMVBO" />
