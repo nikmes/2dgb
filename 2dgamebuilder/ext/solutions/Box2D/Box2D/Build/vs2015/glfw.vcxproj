@@ -83,23 +83,23 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <OutDir>bin\x32\Debug\</OutDir>
+    <OutDir>$(SolutionDir)..\..\..\..\..\..\lib\x86\Debug\</OutDir>
     <IntDir>obj\x32\Debug\glfw\</IntDir>
     <TargetName>glfw</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <OutDir>bin\x64\Debug\</OutDir>
+    <OutDir>$(SolutionDir)..\..\..\..\..\..\lib\x64\Debug\</OutDir>
     <IntDir>obj\x64\Debug\glfw\</IntDir>
     <TargetName>glfw</TargetName>
     <TargetExt>.lib</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <OutDir>bin\x32\Release\</OutDir>
+    <OutDir>$(SolutionDir)..\..\..\..\..\..\lib\x86\Release\</OutDir>
     <IntDir>obj\x32\Release\glfw\</IntDir>
     <TargetName>glfw</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <OutDir>bin\x64\Release\</OutDir>
+    <OutDir>$(SolutionDir)..\..\..\..\..\..\lib\x64\Release\</OutDir>
     <IntDir>obj\x64\Release\glfw\</IntDir>
     <TargetName>glfw</TargetName>
     <TargetExt>.lib</TargetExt>

@@ -68,15 +68,19 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <IncludePath>..\include\;$(IncludePath)</IncludePath>
+    <OutDir>$(SolutionDir)\..\..\..\..\lib\x86\Debug\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <IncludePath>..\include\;$(IncludePath)</IncludePath>
+    <OutDir>$(SolutionDir)\..\..\..\..\lib\x64\Debug\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <IncludePath>..\include\;$(IncludePath)</IncludePath>
+    <OutDir>$(SolutionDir)\..\..\..\..\lib\x86\Release\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <IncludePath>..\include\;$(IncludePath)</IncludePath>
+    <OutDir>$(SolutionDir)\..\..\..\..\lib\x64\Release\</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
