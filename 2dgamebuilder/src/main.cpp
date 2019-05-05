@@ -1,10 +1,6 @@
-/**
-* \date 14/02/2015
-* \author Nicholas Messaritis
-*
-* \file main.cpp
-*
-*/
+/// <summary>
+/// Entry Point of the application
+/// </summary>
 
 #include "editstate.h"
 #include "introstate.h"
@@ -16,10 +12,14 @@
 #pragma comment(linker, "/SUBSYSTEM:windows /ENTRY:mainCRTStartup" )
 #endif
 
+/// <summary>
+/// 
+/// </summary>
+/// <returns></returns>
+/// 
 int main()
 {
 	Application app;
-	
 	app.init();
 
 	app.changeState(CEditState::Instance());

@@ -1,7 +1,16 @@
+/// <summary>
+/// 
+/// </summary>
+/// 
 #include "editbar.h"
 #include <imgui/imgui.h>
 #include "servicelocator.h"
 
+/// /// <summary>
+/// 
+/// </summary>
+/// <param name="textureAtlas"></param>
+/// <param name="name"></param>
 EditBar::EditBar(TextureAtlas *textureAtlas, string name) :ImGUIComponent(textureAtlas, name)
 {
 	this->addIcons();
@@ -31,6 +40,7 @@ void EditBar::run(bool *opened)
 		textureAtlasItem currItem = *it;
 
 		uv0 = ImVec2(currItem.x / (float)tex->w, currItem.y / (float)tex->h);
+
 		uv1 = ImVec2((currItem.x + currItem.w) / (float)tex->w, (currItem.y + currItem.h) / (float)tex->h);
 
 		ImGui::Image(texId, ImVec2(20, 20), uv0, uv1, ImColor(255, 255, 255, 255));
@@ -49,6 +59,7 @@ void EditBar::run(bool *opened)
 				if (currItem.name == "tilemode")
 				{
 					TRACE(T_DEB, "Enabled tiled mode editing. Set subState EST_DRAWTILED");
+
 					ServiceLocator::getStateService()->setSubState(EST_DRAWTILED);
 
 					if (drawOnClick)
@@ -100,17 +111,29 @@ void EditBar::run(bool *opened)
 
 				if (currItem.name == "box2d")
 				{
+					TRACE(T_DEB, "Switch to BOX2d State");
 					ServiceLocator::getStateService()->setSubState(EST_BOX2D);
 				}
 					
 				if (currItem.name == "square")
 				{
+					TRACE(T_DEB, "Draw Continuesly");
 					ServiceLocator::getStateService()->setSubState(EST_SQUARE);
 				}
+
 				if (currItem.name == "singleselect")
 				{
+					TRACE(T_DEB, "Enable single select");
 					ServiceLocator::getStateService()->setSubState(EST_SINGLE_SELECT);
 				}
+
+				if (currItem.name == "properties")
+				{
+					TRACE(T_DEB, "Enable selected item properties window");
+					ServiceLocator::getStateService()->setSubState(EST_SINGLE_SELECT);
+				}
+
+				TRACE(T_DEB, "Item from EDIT_BAR clicked [%s]", currItem.name.c_str());
 			}
 			
 			if (currItem.name == "singleselect")
@@ -281,6 +304,7 @@ void EditBar::run(bool *opened)
 				}
 
 			}
+
 
 			// for every icon display hint if hint is set and hints are enabled
 

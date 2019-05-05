@@ -6,7 +6,6 @@
 
 #include "spritebatch.h"
 #include "definitions.h"
-#include "camera.h"
 
 using namespace std;
 

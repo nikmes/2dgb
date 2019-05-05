@@ -302,9 +302,6 @@
     <ClInclude Include="inc\introstate.h">
       <Filter>Header Files\states\editor-states</Filter>
     </ClInclude>
-    <ClInclude Include="inc\camera.h">
-      <Filter>Header Files\services\serviceproviders\levelcomponents</Filter>
-    </ClInclude>
     <ClInclude Include="inc\level.h">
       <Filter>Header Files\services\serviceproviders\levelcomponents</Filter>
     </ClInclude>
@@ -389,9 +386,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\box2ddebugdraw.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\camera.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\globals.cpp">

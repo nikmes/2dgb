@@ -26,7 +26,6 @@
     <ClInclude Include="inc\benchmarkstate.h" />
     <ClInclude Include="inc\box2ddebugdraw.h" />
     <ClInclude Include="inc\box2dworldwindow.h" />
-    <ClInclude Include="inc\camera.h" />
     <ClInclude Include="inc\camerapropertieswindow.h" />
     <ClInclude Include="inc\cameraprovider.h" />
     <ClInclude Include="inc\colorpickerwindow.h" />
@@ -116,7 +115,6 @@
     <ClCompile Include="src\benchmarkstate.cpp" />
     <ClCompile Include="src\box2ddebugdraw.cpp" />
     <ClCompile Include="src\box2dworldwindow.cpp" />
-    <ClCompile Include="src\camera.cpp" />
     <ClCompile Include="src\camerapropertieswindow.cpp" />
     <ClCompile Include="src\cameraprovider.cpp" />
     <ClCompile Include="src\colorpickerwindow.cpp" />

@@ -364,7 +364,7 @@ bool IMGUIProvider::init()
 	//my_font0 = io.Fonts->AddFontFromFileTTF("extra_fonts/clacon.ttf", 16.0f);
 	//my_font1 = io.Fonts->AddFontFromFileTTF("extra_fonts/DroidSans.ttf", 16.0f);
 	//my_font2 = io.Fonts->AddFontFromFileTTF("extra_fonts/Perfect DOS VGA 437.ttf", 21.0f);
-	my_font2 = io.Fonts->AddFontFromFileTTF("extra_fonts/Inconsolata-Regular.ttf", 21.0f);
+	my_font2 = io.Fonts->AddFontFromFileTTF("extra_fonts/Inconsolata-Regular.ttf", 14.0f);
 
 	TRACE(T_INF, "IMGUI Loaded in memmory font clacon.ttf");
 
